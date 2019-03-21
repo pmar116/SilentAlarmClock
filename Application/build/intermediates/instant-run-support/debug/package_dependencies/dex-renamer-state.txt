@@ -1,0 +1,4 @@
+#Wed Mar 20 13:00:12 PDT 2019
+base.0=D\:\\Preston\\Documents\\AndroidStudioProjects\\SilentAlarmv3\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+path.0=classes.dex
+renamed.0=classes.dex
