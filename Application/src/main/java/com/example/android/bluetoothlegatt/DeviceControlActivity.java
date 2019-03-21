@@ -334,7 +334,7 @@ public class DeviceControlActivity extends Activity {
     }
     public void onClickCancel(View v){
         if(mBluetoothLeService != null) {
-            String time = "-1";
+            String time = "0";
             mBluetoothLeService.writeCustomCharacteristic(time.getBytes());
         }
     }
