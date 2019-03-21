@@ -330,12 +330,14 @@ public class DeviceControlActivity extends Activity {
         if(mBluetoothLeService != null) {
             String time = "5";
             mBluetoothLeService.writeCustomCharacteristic(time.getBytes());
+            mStatus.setText("Snooze Sent!");
         }
     }
     public void onClickCancel(View v){
         if(mBluetoothLeService != null) {
             String time = "0";
             mBluetoothLeService.writeCustomCharacteristic(time.getBytes());
+            mStatus.setText("Alarm Off");
         }
     }
     public void onClickRead(View v){
